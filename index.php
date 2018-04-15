@@ -9,7 +9,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -26,7 +26,7 @@
 
 
 	<style>
-	/*cutom css*/	
+	/*cutom css*/
 	.testimonial-align{
 		margin-top: 15px !important;
 	}
@@ -44,16 +44,16 @@
 <body>
 <?php
 	/*if ($_FILES["fileToUpload"]["size"] > 500000) {}*/
-	
+
 	//$name = $_FILES['fileToUpload']['name'];
         //$tp_nme = $_FILES['fileToUpload']['tmp_name'];
-        
+
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$message = $_POST['message'];
 	$subject = $name .','. $email.' ,'.$phone.','.$message;
-	mail("info@scribble3d.in","Scribble Contact Form",$subject );
+	mail("avrarun2511@gmail.com","Scribble Contact Form",$subject );
 ?>
 
 <div class="jumbotron text-xs-center">
